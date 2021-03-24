@@ -3,7 +3,7 @@ import SnetSDK, { DefaultPaymentStrategy } from "snet-sdk";
 import service from "../../public/client_libraries/snet/style-transfer/nodejs/style_transfer_grpc_pb";
 import messages from "../../public/client_libraries/snet/style-transfer/nodejs/style_transfer_pb.js";
 
-export default (req, res) => {
+export default async (req, res) => {
     console.log("request", req.body);
   const {
     privateKey,
