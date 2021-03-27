@@ -1,5 +1,5 @@
 
-import SnetSDK, { DefaultPaymentStrategy } from "snet-sdk";
+import SnetSDK, { DefaultPaymentStrategy } from "@vivek205/node-sdk-dev";
 import service from "../../public/client_libraries/snet/style-transfer/nodejs/style_transfer_grpc_pb";
 import messages from "../../public/client_libraries/snet/style-transfer/nodejs/style_transfer_pb.js";
 
